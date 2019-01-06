@@ -1,8 +1,6 @@
-/**
- * Created by Kay on 2016/4/15.
- */
+
 // 自定义背景音乐的 播放/暂停 功能
-function playPause(){
+function playMusic(){
     var music = document.getElementById("music");
     var aTitle = document.getElementById("aTitle");
     if (music.paused){
