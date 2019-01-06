@@ -1,2 +1,2 @@
 # Zou150.github.io
-persioned blog
+my personal web
