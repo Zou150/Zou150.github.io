@@ -1,0 +1,23 @@
+{
+  "name": "zou150.github.io",
+  "version": "1.0.0",
+  "description": "my personal web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zou150/Zou150.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zou150/Zou150.github.io/issues"
+  },
+  "homepage": "https://github.com/Zou150/Zou150.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1"
+  }
+}
