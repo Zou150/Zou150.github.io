@@ -9,6 +9,10 @@
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" >
 
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/defualt.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/function.js"></script>
+
 </head>
 <body>
     <!-- 添加背景音乐 -->
@@ -20,16 +24,13 @@
     <div class="content">
         <!-- 头像 -->
         <a class="avatar" id="aTitle" href="#" title="暂停音乐" onclick="playMusic()">
-            <img src="images/head02.jpg" alt="头像" >
-        </a>
-
+            <img src="images/head02.jpg" alt="头像" ></a>
         <!-- 文字简介 -->
         <div class="username">Walker Zero</div>
         <div class="desc">
             <a title="Follow me on text1" href="" target="_blank">前端开发</a>
             <a title="Follow me on text2" href="" target="_blank">新媒体运营</a>  
         </div>
-
         <!-- 外部链接 -->
         <div class="social">
             <a title="Follow me on Github" href="https://github.com/Zou150" target="_blank">
@@ -45,8 +46,22 @@
                 <span class="iconfont icon-photo"></span>
             </a>
         </div>
-        
-        <script type="text/javascript" src="js/music.js"></script>
     </div>
+        <div id="content2">
+        <div id="motto">
+            --<span class="keyword">我只能送你到这里了，剩下的路你要自己走。</span><br />
+            --<span class="keyword">记住，不要回头！</span><br />
+            <span class="comments"></span>               ————《千与千寻》</span><br />
+        <div id="footer">
+            Copyright © 2018 <a href='https://github.com/Zou150/Zou150.github.io'>Zou150</a> 2018-2019
+        </div>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        $("#motto").typewriter();
+    </script>
+    <script type="text/javascript" src="js/music.js"></script>
 </body>
 </html>
