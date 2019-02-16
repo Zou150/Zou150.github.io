@@ -1,0 +1,37 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    background: #ffe;
+    font-size: 12px;
+    overflow: auto
+} */
+
+#content2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 100px;
+    color: #fff;
+    font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
+    font-size: 12px
+}
+
+#code .keyword {
+    color: #c9c6c6;
+    font-weight: bold
+}
+
+#code .comments {
+    color: #f2f8f5
+}
+
+#footer {
+    margin-top: 10px;
+    text-align: center;
+    color: #666
+}
+
+#copyright a {
+    color: #666
+}
