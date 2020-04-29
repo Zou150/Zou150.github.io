@@ -1,0 +1,15 @@
+{
+    "name": "Walker Blog",
+    "short_name": "Blog",
+    "theme_color": "#49b1f5",
+    "background_color": "#49b1f5",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [{
+        "src": "images/pwaicons/36.png",
+        "sizes": "50x50",
+        "type": "image/png"
+    }],
+    "splash_pages": null
+}

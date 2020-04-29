@@ -3,12 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
+<<<<<<< HEAD
 title: Hexo
 subtitle: ''
 description: ''
 keywords:
 author: John Doe
 language: en
+=======
+title: Walker
+subtitle: '繁星纵变，承诺永恒'
+description: '繁星纵变，承诺永恒'
+keywords: '肥星，社联，广中医，生活分享，日记，趣事'
+author: Walker
+language: zh-CN
+>>>>>>> 92f8006fe8b37d1bf319bb8cb22511b61195c466
 timezone: ''
 
 # URL
@@ -98,4 +107,58 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
+<<<<<<< HEAD
   type: ''
+=======
+  type: git
+  repo: https://github.com/Zou150/Zou150.github.io.git
+  branch: master
+
+#douban
+douban:
+  user: WalkerZou
+  builtin: true
+  book:
+    title: '如何阅读一本书'
+    quote: '读书患不多，思义患不明'
+  movie:
+    title: '它们是镜子，是现实的片断，几乎跟梦一样'
+    quote: '过去、现在、未来'
+#  game:
+#    title: 'This is my game title'
+#    quote: 'This is my game quote'
+  timeout: 10000 
+
+
+# offline config passed to sw-precache.
+offline:
+  maximumFileSizeToCacheInBytes: 10485760 # 緩存的最大文件大小，以字節為單位
+  staticFileGlobs:
+    - public/**/*.{js,html,css,png,jpg,gif,svg,webp,eot,ttf,woff,woff2}
+  # 靜態文件合集，如果你的站點使用了例如webp格式的文件，請將文件類型添加進去。
+  stripPrefix: public
+  verbose: true
+  runtimeCaching:
+    # CDNs - should be cacheFirst, since they should be used specific versions so should not change
+    - urlPattern: /* # 如果你需要加載CDN資源，請配置該選項，如果沒有，可以不配置。
+      handler: cacheFirst
+      options:
+        origin: github.com/Zou150/butterfly-cdn # 可替換成你的 url
+
+# # Live2D
+  live2d:
+  enable: true
+  scriptFrom: local # 默认
+  pluginRootPath: live2dw/ # 插件在站点上的根目录
+  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
+  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
+  model:   
+    use: live2d-widget-model-tororo # 下载的动画模型名称
+  display:
+    superSample: 2
+    width: 210
+    height: 420
+    position: left # 模型显示在网页上的位置
+    hOffset: 0
+    vOffset: -20
+>>>>>>> 92f8006fe8b37d1bf319bb8cb22511b61195c466

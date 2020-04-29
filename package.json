@@ -13,13 +13,27 @@
   },
   "dependencies": {
     "hexo": "^4.0.0",
+<<<<<<< HEAD
+=======
+    "hexo-deployer-git": "^2.1.0",
+    "hexo-douban": "^1.1.3",
+>>>>>>> 92f8006fe8b37d1bf319bb8cb22511b61195c466
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^1.0.0",
+    "hexo-generator-index-pin-top": "^0.2.2",
     "hexo-generator-tag": "^1.0.0",
+    "hexo-offline": "^1.0.0",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-stylus": "^1.1.0",
+<<<<<<< HEAD
     "hexo-renderer-marked": "^2.0.0",
     "hexo-server": "^1.0.0"
+=======
+    "hexo-server": "^1.0.0",
+    "hexo-wordcount": "^6.0.1",
+    "leancloud-storage": "^4.3.1",
+    "live2d-widget-model-tororo": "^1.0.5",
+    "valine": "^1.3.10"
+>>>>>>> 92f8006fe8b37d1bf319bb8cb22511b61195c466
   }
 }
