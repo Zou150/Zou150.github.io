@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Walker
-subtitle: '所有的所有，就在文字里'
-description: '生活，好奇心，点点滴滴'
+title: Hexo
+subtitle: ''
+description: ''
 keywords:
-author: Walker
-language: zh-CN
+author: John Doe
+language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zwzero.cn
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -93,24 +93,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Butterfly
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
-
-#douban
-douban:
-  user: WalkerZou
-  builtin: true
-  book:
-    title: 'This is my book title'
-    quote: 'This is my book quote'
-  movie:
-    title: 'This is my movie title'
-    quote: 'This is my movie quote'
-  game:
-    title: 'This is my game title'
-    quote: 'This is my game quote'
-  timeout: 10000 
