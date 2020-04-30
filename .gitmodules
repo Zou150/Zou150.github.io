@@ -1,8 +1,6 @@
 [submodule "themes/landscape"]
 	path = themes/landscape
 	url = https://github.com/hexojs/hexo-theme-landscape.git
-
-[submodule "themes/Butterfly"]
-	path = themes/Butterfly
+[submodule "hexo-theme-butterfly"]
+	path = hexo-theme-butterfly
 	url = https://github.com/jerryc127/hexo-theme-butterfly.git
-	
