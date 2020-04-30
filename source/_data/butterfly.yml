@@ -55,9 +55,9 @@ copy:
 #   icon: link
 # ---------------
 social:
-  fa fa-github: https://github.com/Zou150
-  fa fa-envelope: mailto:walker_zero@126.com
-  fa fa-rss: /atom.xml
+  fa fa-github: https://github.com/Zou150 || Github
+  fa fa-envelope: mailto:walker_zero@126.com || Email
+  fa fa-rss: /atom.xml || RSS
 
 ####    search    ####
 # Algolia search
@@ -101,7 +101,9 @@ katex:
 
 # Post info settings
 # ---------------
-avatar: /img/avatar.jpg
+avatar:
+  img: /img/avatar.png
+  effect: false # 頭像會一直轉圈
 
 # the banner image of index
 index_img: https://cdn.jsdelivr.net/gh/Zou150/butterfly-cdn@latest/top_img/index.jpg
@@ -110,7 +112,16 @@ index_img: https://cdn.jsdelivr.net/gh/Zou150/butterfly-cdn@latest/top_img/index
 default_top_img: https://cdn.jsdelivr.net/gh/Zou150/butterfly-cdn@latest/top_img/index.jpg
 
 # the default cover of the post
-default_cover: https://cdn.jsdelivr.net/gh/Zou150/butterfly-cdn@latest/top_img/default.jpg
+cover:
+  # 是否顯示文章封面
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  # 封面顯示的位置
+  # 三個值可配置 left , right , both
+  position: both
+  # 當沒有設置cover時，默認的封面顯示
+  default_cover: https://cdn.jsdelivr.net/gh/Zou150/butterfly-cdn@latest/top_img/default.jpg
 
 # the banner image of archive page
 archive_img: https://cdn.jsdelivr.net/gh/Zou150/butterfly-cdn@latest/top_img/archive.jpg
@@ -425,9 +436,6 @@ ClickShowText:
     - 诚信
     - 友善
   fontSize: 15px
-
-# 頭像會一直轉圈
-avatar_effect: false
 
 # 網站顯示模式
 # light 默認模式

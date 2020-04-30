@@ -16,7 +16,9 @@ install:
 #   - git clone https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
 
 script:
-  - hexo clean && hexo g && hexo douban
+  - hexo clean 
+  - hexo g 
+  - hexo douban
   - cd ./public
   - git init
   - git config user.name "${GIT_NAME}"
