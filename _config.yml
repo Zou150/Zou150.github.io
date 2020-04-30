@@ -3,21 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-<<<<<<< HEAD
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-=======
 title: Walker
 subtitle: '繁星纵变，承诺永恒'
 description: '繁星纵变，承诺永恒'
 keywords: '肥星，社联，广中医，生活分享，日记，趣事'
 author: Walker
 language: zh-CN
->>>>>>> 92f8006fe8b37d1bf319bb8cb22511b61195c466
 timezone: ''
 
 # URL
@@ -107,10 +98,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-<<<<<<< HEAD
   type: ''
-=======
-  type: git
   repo: https://github.com/Zou150/Zou150.github.io.git
   branch: master
 
@@ -161,4 +149,3 @@ offline:
     position: left # 模型显示在网页上的位置
     hOffset: 0
     vOffset: -20
->>>>>>> 92f8006fe8b37d1bf319bb8cb22511b61195c466
