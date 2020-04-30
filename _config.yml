@@ -93,13 +93,27 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
-  repo: https://github.com/Zou150/Zou150.github.io.git
+
+#douban
+douban:
+  user: WalkerZou
+  builtin: true
+  book:
+    title: 'This is my book title'
+    quote: 'This is my book quote'
+  movie:
+    title: 'This is my movie title'
+    quote: 'This is my movie quote'
+  game:
+    title: 'This is my game title'
+    quote: 'This is my game quote'
+  timeout: 10000   repo: https://github.com/Zou150/Zou150.github.io.git
   branch: master
 
 #douban
