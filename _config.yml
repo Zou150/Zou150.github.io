@@ -105,22 +105,6 @@ douban:
   user: WalkerZou
   builtin: true
   book:
-    title: 'This is my book title'
-    quote: 'This is my book quote'
-  movie:
-    title: 'This is my movie title'
-    quote: 'This is my movie quote'
-  game:
-    title: 'This is my game title'
-    quote: 'This is my game quote'
-  timeout: 10000   repo: https://github.com/Zou150/Zou150.github.io.git
-  branch: master
-
-#douban
-douban:
-  user: WalkerZou
-  builtin: true
-  book:
     title: '如何阅读一本书'
     quote: '读书患不多，思义患不明'
   movie:

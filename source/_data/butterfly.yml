@@ -125,14 +125,22 @@ link_img: https://cdn.jsdelivr.net/gh/Zou150/butterfly-cdn@latest/top_img/link.j
 about_img: https://cdn.jsdelivr.net/gh/Zou150/butterfly-cdn@latest/top_img/about.jpg
 
 # 如果你有使用hexo-douban去生成movie界面，可配置這個
-movies_img: https://cdn.jsdelivr.net/gh/Zou150/butterfly-cdn@latest/top_img/movie.jpg
-books_img: https://cdn.jsdelivr.net/gh/Zou150/butterfly-cdn@latest/top_img/book.jpg
+douban:
+  meta: true
+  movies_img: https://cdn.jsdelivr.net/gh/Zou150/butterfly-cdn@latest/top_img/movie.jpg
+  books_img: https://cdn.jsdelivr.net/gh/Zou150/butterfly-cdn@latest/top_img/book.jpg
 
 # if the photo link cannot connect,it will show that
 lodding_bg:
   flink: /img/friend_404.gif #404后圖片
   post_page: /img/404.jpg #404后圖片
 #  post: /img/loading.gif ##加載動畫
+
+# A simple 404 page
+error_404:
+  enable: false
+  subtitle: 'Page Not Found'
+  background:
 
 post_meta:
   date_type: both # or created or updated 文章日期是创建日或者更新日或都显示
@@ -461,10 +469,10 @@ subtitle:
   # source: 3  調用一句网（簡體） http://yijuzhan.com/
   # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的内容
-  source: 1
+  source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-#    - 繁星纵变&#44;承诺永恒
+   - 繁星纵变&#44;承诺永恒
 #    - Never put off till tomorrow what you can do today
 
 ####    側邊欄    ####
