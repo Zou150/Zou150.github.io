@@ -1,9 +1,15 @@
 ---
 title: ori
 date: 2020-03-16 21:11:01
-tags: test1
-categories: test
-keywords: test3
+tags: 
+    - ori奥日与黑暗森林
+    - 横板游戏
+    - 剧情
+    - MUSIC
+categories: 
+    - GAME
+    - 单机游戏
+keywords: ori
 description: test4
 cover:  
 ---

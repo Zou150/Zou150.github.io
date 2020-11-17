@@ -132,18 +132,27 @@ offline:
         origin: github.com/Zou150/butterfly-cdn # 可替換成你的 url
 
 # # Live2D
-  live2d:
+live2d:
   enable: true
   scriptFrom: local # 默认
   pluginRootPath: live2dw/ # 插件在站点上的根目录
   pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
   pluginModelPath: assets/ # 模型文件相对与插件根目录路径
   model:   
+    scale: 1
+    hHeadPos: 0.5
+    vHeadPos: 0.618
     use: live2d-widget-model-tororo # 下载的动画模型名称
   display:
     superSample: 2
-    width: 210
-    height: 420
-    position: left # 模型显示在网页上的位置
+    width: 120
+    height: 200
+    position: right # 模型显示在网页上的位置
     hOffset: 0
-    vOffset: -20
+    vOffset: 50
+  mobile:
+    show: true  // 移动设备是否显示
+    scale: 0.5
+  react:
+    opacityDefault: 0.7
+    opacityOnHover: 0.2

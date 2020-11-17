@@ -7,9 +7,15 @@
     "scope": "/",
     "start_url": "/",
     "icons": [{
-        "src": "images/pwaicons/36.png",
-        "sizes": "50x50",
-        "type": "image/png"
-    }],
+            "src": "img/pwa/36.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "img/pwa/144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
     "splash_pages": null
 }
