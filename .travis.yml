@@ -1,4 +1,6 @@
 language: node_js
+node_js:
+  - 12
 node_js: stable
 
 sudo: required
@@ -7,14 +9,6 @@ sudo: required
 cache:
   directories:
     - node_modules
-
-env:
-  - TRAVIS_NODE_VERSION="12.14.1"
-
-install:
-  - nvm install TRAVIS_NODE_VERSION
-  - nvm alias default TRAVIS_NODE_VERSION
-  # - npm install
 
 # S: Build Lifecycle
 install:
